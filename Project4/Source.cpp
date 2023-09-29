@@ -18,7 +18,7 @@ int main()
 	cout << "x = "; cin >> x;
 	cout << "y = "; cin >> y;
 
-	z1 = (cos(x) * cos(x) * cos(x) * cos(x)) + (sin(y) * sin(y)) + (1. / 4) * (sin(2 * x) * sin(2 * x)) - 1;
+	z1 = cos(x) * cos(x) * cos(x) * cos(x) + sin(y) * sin(y) + 1. / 4 * sin(2 * x) * sin(2 * x) - 1;
 	z2 = sin(y+x) * sin(y-x);
 
 	cout << endl;
